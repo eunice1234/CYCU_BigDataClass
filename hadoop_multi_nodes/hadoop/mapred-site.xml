@@ -32,4 +32,20 @@
   # 多人使用情況下，將 .staging 目錄寫到個人的家目錄中 #
   </description>
  </property>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>master:54311</value>
+ </property>
+ <property>
+  <name>mapreduce.framework.name</name>
+  <value>yarn</value>
+ </property>
+ <property>
+  <name>yarn.app.mapreduce.am.staging-dir</name>
+  <value>/user</value>
+  <description>
+  # 多人使用情況下，將 .staging 目錄寫到個人的家目錄中 #
+  </description>
+ </property>
+
 </configuration>
